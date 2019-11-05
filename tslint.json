@@ -1,0 +1,25 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:latest",
+        "tslint-eslint-rules",
+        "tslint-react",
+        "tslint-config-prettier",
+        "tslint-plugin-prettier"
+    ],
+    "jsRules": {},
+    "rules": {
+        "object-literal-sort-keys": false,
+        "no-console": false,
+        "prettier": {
+            "options": [
+                {
+                    "printWidth": 80,
+                    "tabWidth": 4,
+                    "trailingComma": "all"
+                }
+            ]
+        }
+    },
+    "rulesDirectory": []
+}
